@@ -3,10 +3,46 @@ body {
     background-color: rgb(43, 42, 42);
 }
 
-header {
-    background-color:  rgb(63, 62, 62);
+footer {
+    margin: 20px;
 }
 
-img {
-    
+header {
+    background-color: rgb(63, 62, 62);
+}
+
+.d-flex{
+    padding-top: 10px;
+}
+.navbar-brand {
+    padding-bottom: 20px;
+}
+.nav-item {
+    padding-bottom: 10px;
+}
+
+img {}
+
+#center {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#imgcenter {
+    align-items: center;
+}
+
+.scrollable-menu {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.slidecenter {
+    left: 34%;
+    width: 30%;
 }
