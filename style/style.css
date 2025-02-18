@@ -11,19 +11,34 @@ header {
     background-color: rgb(63, 62, 62);
 }
 
-.d-flex{
+.d-flex {
     padding-top: 10px;
 }
+
 .navbar-brand {
     padding-bottom: 20px;
 }
+
 .nav-item {
     padding-bottom: 10px;
 }
 
 img {}
 
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
 #center {
+
     text-align: center;
     margin-top: 20px;
     align-items: center;
@@ -45,4 +60,8 @@ img {}
 .slidecenter {
     left: 34%;
     width: 30%;
+}
+
+.navbar-brand {
+    color: rgb(1, 109, 6);
 }
